@@ -1,0 +1,9 @@
+<h1>My Board Games</h1>
+
+<!--
+ render @board_games
+-->
+
+<%= render partial: 'board_game',
+           collection: @board_games,
+           locals: { show_details_link: true } %>
